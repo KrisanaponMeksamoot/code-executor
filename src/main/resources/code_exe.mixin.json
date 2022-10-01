@@ -1,0 +1,8 @@
+{
+    "required": true,
+    "package": "net.kris.code_exe.mixin",
+    "mixins":[
+        "RhinoMainMixin",
+        "MainMixin"
+    ]
+}

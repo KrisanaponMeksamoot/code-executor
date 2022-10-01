@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "code_exe",
+  "version": "${version}",
+
+  "name": "Code Executor",
+  "description": "Execute your java code!\nDon't crash your game!",
+  "authors": [
+    "Krisanapon Meksamoot"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "Unlicense",
+  "icon": "assets/code_exe/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "code_exe.mixin.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
